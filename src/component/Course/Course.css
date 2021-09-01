@@ -1,0 +1,37 @@
+.fill-color {
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.y_line {
+  border-left: 2px solid #858b8e;
+}
+.mycardrow>.col{
+    width: 200px;
+    height: 200px;
+}
+.lecture>.col>.card{
+  background-color: #0c8cd0;
+  color: #fff;
+ 
+}
+.lecture>.col{
+  height: 150px;
+}
+.notes{
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.btn{
+  border-radius: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .y_line {
+    padding: 20px;
+    margin-top: 20px;
+    border-left: none;
+    border-top: 2px solid #858b8e;
+  }
+}

@@ -1,0 +1,51 @@
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.text-black {
+  color: #000;
+}
+
+.heading {
+  font-weight: normal;
+  font-size: 1.3rem;
+}
+
+.mypara {
+  float: right;
+  color: #fff;
+  padding: 6px;
+}
+.max-box {
+  background-color: #ffffff;
+  border-bottom: 1px solid #c8c9ca;
+}
+
+.check {
+  border: 2px solid red;
+}
+
+.box-tab ul {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box-tab ul li {
+  list-style: none;
+}
+.mylink {
+  text-decoration: none;
+  color: #000;
+}
+.mylink:hover {
+  border-bottom: 2px solid aqua;
+}
+
+.one-head{
+  font-weight: 700;
+}
+.navbar-brand{
+  font-size: 1.8rem;
+}
