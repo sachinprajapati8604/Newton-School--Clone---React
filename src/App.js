@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './component/Header/Header';
 import {
@@ -25,6 +24,9 @@ function App() {
       <div>
         <Home/>
         <Switch>
+        <Route exact path="/">
+            <Course />
+          </Route>
           <Route exact path="/course">
             <Course />
           </Route>

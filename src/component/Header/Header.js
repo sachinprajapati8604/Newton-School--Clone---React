@@ -2,7 +2,9 @@ import React from 'react'
 import './Header.css'
 import { FaUsers, FaBell, FaUserCircle } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-
+import NavTabs from '../NavTabs/NavTabs';
+import NavTab from '../NavTabs/NavTab';
+import { Route, Switch, Redirect } from "react-router-dom";
 export default function Header() {
     return (
         <>
@@ -52,7 +54,7 @@ export default function Header() {
 
                 <div className="box-tab">
                     <ul>
-                        <li><Link className="mylink"   to="/course"> Course</Link> </li>
+                        <li><Link className="mylink" to="/course"> Course</Link> </li>
                         <li><Link className="mylink" to="/my-timeline"> My Timeline </Link> </li>
                         <li><Link className="mylink" to="/leaderboard"> Leaderboard </Link> </li>
                         <li><Link className="mylink" to="/milestone"> Milestone </Link> </li>
@@ -63,6 +65,12 @@ export default function Header() {
                         <li><Link className="mylink" to="/placement"> Placement </Link> </li>
 
                     </ul>
+
+                    {/* <Switch>
+                        <Redirect exact from="/" to="/course" />
+                        <Route exact path="/:page?" render={props => <NavTab {...props} />} />
+                    </Switch> */}
+                  
                 </div>
             </div>
         </>
